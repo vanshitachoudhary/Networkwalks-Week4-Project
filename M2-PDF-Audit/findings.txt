@@ -1,0 +1,29 @@
+M2 - PDF ENCRYPTION AUDIT
+
+Environment: Isolated local practice lab
+Tool: qpdf
+Test Files: 3 synthetic PDFs
+
+Initial Assessment:
+- sample1.pdf - Not encrypted
+- sample2.pdf - Not encrypted
+- sample3.pdf - Not encrypted
+
+Encryption Applied:
+All three sample PDFs were protected using AES-256 (AESv3).
+
+Verification:
+- All three encrypted PDFs accepted the configured test password.
+- Encryption revision: R = 6
+- Encryption method: AESv3
+
+Observation:
+Printing, extraction and modification permissions
+were allowed in the test configuration.
+
+Conclusion:
+AES-256 encryption was successfully applied
+and verified on all three synthetic PDFs.
+
+Safety Note:
+No real patient PDFs or confidential records were accessed.
