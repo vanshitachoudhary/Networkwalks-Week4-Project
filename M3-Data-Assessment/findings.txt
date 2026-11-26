@@ -1,0 +1,35 @@
+M3 - EMPLOYEE AND SHAREHOLDER DATA SECURITY AUDIT
+
+Environment: Isolated local practice lab
+Database: SQLite
+Dataset: Synthetic training records
+
+Employee Records:
+- Total records: 5
+- Department-wise salary analysis completed.
+- Highest synthetic salary: 78000
+
+Shareholder Records:
+- Total records: 3
+- Total shares: 10000
+- Total ownership: 100 percent
+
+Initial Database Permissions:
+644
+
+Security Observation:
+Database was initially readable by other local users.
+
+Remediation:
+Permissions were restricted to owner-only access
+using chmod 600.
+
+Recommendation:
+- Apply least-privilege access.
+- Restrict database file permissions.
+- Encrypt sensitive data at rest.
+- Maintain access logs.
+
+Safety Note:
+All records are fictional.
+No real hospital employee or shareholder information was accessed.
