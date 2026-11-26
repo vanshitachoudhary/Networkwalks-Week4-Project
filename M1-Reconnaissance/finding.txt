@@ -1,0 +1,37 @@
+M1 - RECONNAISSANCE
+
+Target: OWASP Juice Shop
+Environment: Isolated local practice lab
+IP Address: 127.0.0.1
+Port: 3000
+Protocol: HTTP
+
+Tools Used:
+- Nmap
+- cURL
+- Firefox
+- Docker
+
+Activities Completed:
+- Docker lab environment setup
+- Port scanning
+- HTTP response inspection
+- robots.txt inspection
+- Product search API inspection
+- Login page inspection
+- Registration page inspection
+
+Observations:
+- Application accessible on localhost port 3000.
+- robots.txt disclosed a /ftp path.
+- Product search API returned product information.
+- Login and registration pages were accessible.
+- Password guidance displayed minimum 8 characters,
+  lowercase, uppercase, digit and special character.
+
+Conclusion:
+Initial reconnaissance completed successfully.
+
+Safety Note:
+Only a local practice application was tested.
+No real hospital data was accessed.
